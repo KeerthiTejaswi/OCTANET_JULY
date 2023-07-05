@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cakes</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/70637eac2a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            <header>
+                <a href="#"><img src="Image.jpeg" height="50px" width="60px" style="border-radius: 25px">BakeCake</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Queries</a></li>
+                </ul>
+            </div>
+            </header>
+            <div class="container">
+                <div class="content">
+                    <h1><span style="color:brown">B</span>aked <span style="color:brown">W</span>ith<span style="color:brown"> L</span>ove <i class="fa-solid fa-heart fa-sm" style="color:red"></i></h1>
+                    <h3>Nutritious And Delicious</h3>
+                    <p style="color:brown">Experience the taste of your happiness <i class="fa-solid fa-face-smile fa-sm"></i> </p>
+                    <a href="#">Order Now</a>
+                </div>
+                <div class="Items">
+                    <h1 style="font-size: 25px;"><span style="color: brown;">F</span>avourite<span style="color: brown;">s</span></h1> <br>
+                    <img src="Image1.jpeg" height="300px" width="300px" class="Cake">
+                </div>
+                <ul class="click">
+                    <li><img src="Image1.jpeg" height="300px" width="300px" onclick="imgSlider('Image1.jpeg')"></li>
+                    <li><img src="Image2.jpeg" height="300px" width="300px" onclick="imgSlider('Image2.jpeg')"></li>
+                    <li><img src="Image3.jpeg" height="300px" width="300px" onclick="imgSlider('Image3.jpeg')"></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                function  imgSlider(anything){
+                    document.querySelector('.Cake').src=anything;
+                }
+            </script>
+        </section>
+    </body>
+</html>
